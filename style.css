@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    position: sticky;
+
+    top: 0px;
+    width: 100vw;
+
+    box-sizing: border-box;
+
+
+
+    /* width:100vw; */
+}
+
+.sp {
+
+    padding: 10px 50px;
+
+    /* align-items: center; */
+
+    /* box-sizing: border-box; */
+    background-color: white;
+
+
+}
+
+
+li {
+    padding: 0px 20px;
+    margin-top: 10px;
+}
+
+.nav_left {
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.bt {
+    border: 1px solid blue;
+    padding: 5px 20px;
+    border-radius: 10px;
+
+}
+
+.cont {
+    box-sizing: content-box;
+
+
+}
+
+.card1 {
+    width: 50vw;
+    height: 50vh;
+    /* border:1px solid black; */
+    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    padding: 10px 20px;
+
+}
+
+.placement {
+    padding: 10px 20px;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    margin-top: 5vw;
+
+}
+
+
+input {
+    border: 1px solid #E2E2E2;
+    padding: 10px;
+    width: 20vw;
+    border-radius: 10px;
+
+}
+
+.btn1 {
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+
+}
+
+.card2 {
+    width: 30vw;
+    height: 70vh;
+    /* border:1px solid black; */
+    border-radius: 10px;
+    margin-right: 5vw;
+    margin-top: 5vw;
+    padding: 10px 20px;
+    background-color: white;
+
+
+}
+
+
+
+
+
+@media screen and (max-width:500px) {
+    .sp {
+        display: block;
+
+
+    }
+}
